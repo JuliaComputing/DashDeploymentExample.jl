@@ -1,13 +1,21 @@
 name = "DashJuliaHubExample"
 uuid = "fe430cf8-67eb-422a-967a-4fec9d586e64"
-authors = ["Steve Kelly <kd2cca@gmail.com> and contributors"]
+authors = ["JuliaHub, Inc."]
 version = "0.1.0"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+[deps]
+Dash = "1b08a953-4be3-4667-9a23-3db579824955"
 
 [compat]
+Aqua = "0.8"
+Dash = "1"
+Test = "1"
 julia = "1"
 
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
 [targets]
-test = ["Test"]
+test = ["Aqua", "Test"]

@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(DashJuliaHubExample, :DocTestSetup, :(using DashJuliaHubExam
 makedocs(;
     modules=[DashJuliaHubExample],
     authors="Steve Kelly <kd2cca@gmail.com> and contributors",
-    repo="https://github.com/sjkelly/DashJuliaHubExample.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/juliacomputing/DashJuliaHubExample.jl/blob/{commit}{path}#{line}",
     sitename="DashJuliaHubExample.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://sjkelly.github.io/DashJuliaHubExample.jl",
+        canonical="https://juliacomputing.github.io/DashJuliaHubExample.jl",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/sjkelly/DashJuliaHubExample.jl",
+    repo="github.com/juliacomputing/DashJuliaHubExample.jl",
 )

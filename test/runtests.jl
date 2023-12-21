@@ -1,6 +1,5 @@
 using DashJuliaHubExample
 using Test
+using Aqua
 
-@testset "DashJuliaHubExample.jl" begin
-    # Write your tests here.
-end
+Aqua.test_all(DashJuliaHubExample)
