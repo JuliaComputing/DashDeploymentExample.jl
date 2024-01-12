@@ -5,7 +5,7 @@ DocMeta.setdocmeta!(DashJuliaHubExample, :DocTestSetup, :(using DashJuliaHubExam
 
 makedocs(;
     modules=[DashJuliaHubExample],
-    authors="Steve Kelly <kd2cca@gmail.com> and contributors",
+    authors="JuliaHub, Inc.",
     repo="https://github.com/juliacomputing/DashJuliaHubExample.jl/blob/{commit}{path}#{line}",
     sitename="DashJuliaHubExample.jl",
     format=Documenter.HTML(;
