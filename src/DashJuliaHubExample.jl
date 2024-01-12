@@ -1,8 +1,9 @@
 module DashJuliaHubExample
 
 using Dash
+using Sockets
 
-function main()
+function main(;host=Sockets.localhost, port=8080, debug=true)
     app = dash()
 
     app.layout = html_div() do
@@ -18,7 +19,7 @@ function main()
                 ))
     end
 
-    run_server(app)
+    run_server(app, host, port; debug)
 end
 
 end
