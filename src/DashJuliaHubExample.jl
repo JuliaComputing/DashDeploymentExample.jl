@@ -3,8 +3,8 @@ module DashJuliaHubExample
 using Dash
 using Sockets
 
-function main()
-    app = dash()
+function main(port)
+    app = dash(requests_pathname_prefix="/proxy/$port/")
 
     app.layout = html_div() do
         html_h1("Hello Dash"),

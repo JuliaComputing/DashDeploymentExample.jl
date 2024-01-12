@@ -4,7 +4,7 @@ using Dash
 
 # Heroku passes the port as the first argument; JuliaHub as a PORT ENV var
 port = something(tryparse(Int, get(ARGS, 1, "")), tryparse(Int, get(ENV, "PORT", "")), 8080)
-app = DashJuliaHubExample.main()
+app = DashJuliaHubExample.main(port)
 @info Sockets.localhost
 @info port
 @info app
