@@ -8,7 +8,6 @@ const DEV_MODE = haskey(ENV, "VSCODE_PROXY_URI")
 function run_app(host="0.0.0.0", port=PORT)
     @info("Initializing dash...")
     app = dash(;
-        external_stylesheets=["https://codepen.io/chriddyp/pen/bWLwgP.css"],
         requests_pathname_prefix=(DEV_MODE ? "/proxy/$(string(port))/" : "/"),
     )
 

@@ -24,7 +24,7 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [[deps.Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
-[[deps.DashJuliaHubExample]]
+[[deps.DashDeploymentExample]]
 path = ".."
 uuid = "fe430cf8-67eb-422a-967a-4fec9d586e64"
 version = "0.1.0"

@@ -1,4 +1,4 @@
-module DashJuliaHubExample
+module DashDeploymentExample
 
 using Dash
 using Sockets

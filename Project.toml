@@ -1,4 +1,4 @@
-name = "DashJuliaHubExample"
+name = "DashDeploymentExample"
 uuid = "fe430cf8-67eb-422a-967a-4fec9d586e64"
 authors = ["JuliaHub, Inc."]
 version = "0.1.0"

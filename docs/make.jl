@@ -1,16 +1,16 @@
-using DashJuliaHubExample
+using DashDeploymentExample
 using Documenter
 
-DocMeta.setdocmeta!(DashJuliaHubExample, :DocTestSetup, :(using DashJuliaHubExample); recursive=true)
+DocMeta.setdocmeta!(DashDeploymentExample, :DocTestSetup, :(using DashDeploymentExample); recursive=true)
 
 makedocs(;
-    modules=[DashJuliaHubExample],
+    modules=[DashDeploymentExample],
     authors="JuliaHub, Inc.",
-    repo="https://github.com/juliacomputing/DashJuliaHubExample.jl/blob/{commit}{path}#{line}",
-    sitename="DashJuliaHubExample.jl",
+    repo="https://github.com/juliacomputing/DashDeploymentExample.jl/blob/{commit}{path}#{line}",
+    sitename="DashDeploymentExample.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://juliacomputing.github.io/DashJuliaHubExample.jl",
+        canonical="https://juliacomputing.github.io/DashDeploymentExample.jl",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/juliacomputing/DashJuliaHubExample.jl",
+    repo="github.com/juliacomputing/DashDeploymentExample.jl",
 )

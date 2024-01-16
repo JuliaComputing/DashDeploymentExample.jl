@@ -1,5 +1,5 @@
-using DashJuliaHubExample
+using DashDeploymentExample
 using Test
 using Aqua
 
-Aqua.test_all(DashJuliaHubExample)
+Aqua.test_all(DashDeploymentExample)

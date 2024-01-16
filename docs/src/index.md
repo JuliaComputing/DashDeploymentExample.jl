@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = DashJuliaHubExample
+CurrentModule = DashDeploymentExample
 ```
 
-# DashJuliaHubExample
+# DashDeploymentExample
 
-Documentation for [DashJuliaHubExample](https://github.com/juliacomputing/DashJuliaHubExample.jl).
+Documentation for [DashDeploymentExample](https://github.com/juliacomputing/DashDeploymentExample.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [DashJuliaHubExample]
+Modules = [DashDeploymentExample]
 ```
